@@ -36,11 +36,11 @@ const Header = () => {
           
         
          
-           <img className='mr-2' src='./tweet.jpg' alt='tweet.js' />
+           <img className='mr-2' src='./download (21).jpg' alt='tweet.js' />
         
        
         
-           <img src='./telegrame.jpg' alt='telegrame.js' />
+           <img src='./download (7).jpg' alt='telegrame.js' />
         
        
       </motion.div>

@@ -37,8 +37,8 @@ const About = () => {
         whileInView={{opacity:1, x: 0 }}
         viewport={{once:true}}
         src='./gibooo.png' alt='gibooo.js'
-        className='mb-2 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover
-        md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[500px] mx-2
+        className='mb-2 md:mb-0 flex-shrink-0 w-20 h-20 rounded-full object-cover
+        md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[500px] mx-2 xl:h-40 xl:w-40
       '
       />
      <img src='./would.png' className="App-logo" alt='logo' />
@@ -46,13 +46,10 @@ const About = () => {
      
         <h3 className='text-1xl mb-1 font-semibold'> Background</h3>
     
-        <p className='text-sm mt-1 mb-3 text-gray-400 '>
-        
+        <p className='text-sm mt-1 mb-3 text-gray-400 p-5'>
 
-
-input type="text" name="middlename" id="middlename"
-value="Enter your middle name here" 106 P a r t I : C o r e M a r k u p
-Hoto supply instructions for the field’s use but rather to supply
+          l have got five years coding experience in javascript with react and next.js. PHP ,JAVA,PYTHON are my extray languages.
+          for databases and backend am expat in graphql,mysqli,superbase,firebase and ws amplify for backend project
 
         </p>
        

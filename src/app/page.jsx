@@ -50,11 +50,11 @@ export default function Home() {
       <Link href='#hero'>
         <footer className='sticky bottom-5 w-full cursor-pointer'>
           <div className='text-center items-center justify-center'                                                                                                                                     ame='flex items-center justify-center'>
-            <img className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
-              src='./OIP (10).jpg' alt='OIP (10)' />
-            <div>
-              <h3 className='text-sm text-gray-500'>Back</h3>
-            </div>
+            <img className='h-10 w-10 rounded-full  hover:grayscale-0 cursor-pointer'
+              src='./download (4).jpg' alt='OIP (10)' />
+            <button className='text-sm text-gray-200 hover:bg-red-200 bg-red-300  rounded pl-6 pr-6 pb-1 pt-1'>
+              <h3>Back</h3>
+            </button>
           </div>
         </footer>
       </Link>

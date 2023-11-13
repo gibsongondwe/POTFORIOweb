@@ -9,7 +9,7 @@ const ExperienceCard = () => {
   
     <article className=' 
        flex flex-col rounded-lg items-center space-y-7 flex-shrink-0  h-[400px]
-    w-[300px] md:[600px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40
+    w-[300px] md:[600px] snap-center bg-[#292929]  hover:opacity-100 opacity-40
     cursor-pointer transition-opacity duration-200 overflow-hidden '>
     
       <motion.img
@@ -23,34 +23,34 @@ const ExperienceCard = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         
-        className='w-20 h-20  rounded-full xl:w-[400px] xl:h-[400px] object-cover object-center
+        className='w-20 h-20  rounded-full xl:w-[400px] xl:h-[400px] object-cover object-center m-5
         '
-        src='./OIP (5).jpg' alt='project.js' />
+        src='./th (6).jpg' alt='project.js' />
       
-      <div className='px-0 md:px-8'>
-        <h4 className='text-sm text-1xl font-light text-gray-300'>FRONTEND DEVELOPER</h4>
+      <div className='px-0 md:px-8 '>
+        <h4 className='text-sm text-1xl font-light text-gray-300'>BACKEND DEVELOPER</h4>
         {/* <p className='text-sm text-1xl mt-1 text-gray-300'>JAVASCRIPT DEVELOPER</p> */}
         <div className=' flex space-x-2 my-2 '>
           <img
             className='h-10 w-10 rounded-full'
-            src='./th (30).jpg' alt='' />
+            src='./th (15).jpg' alt='' />
             <img
             className='h-10 w-10 rounded-full'
-            src='./th (27).jpg' alt='' />
+            src='./th.jpg' alt='' />
             <img
             className='h-10 w-10 rounded-full'
-            src='./th (31).jpg' alt=''/>
+            src='./download.jpg' alt=''/>
                <img
             className='h-10 w-10 rounded-full'
-            src='./download (2).jpg' alt='' />
+            src='./download (7).jpg' alt='' />
                <img
             className='h-10 w-10 rounded-full'
-            src='./download (5).jpg' alt=''/>
+            src='./download (4).jpg' alt=''/>
         
         </div>
-        <p className='text-sm  text-gray-300'>Experience with above languages</p>
+        <p className='text-sm  text-gray-300'>Experience with above languages and databases</p>
         <ul className='list-disc space-y-2 ml-3 text-gray-300 text-sm '>
-          <li className='text-sm mt-2 '>Am a professional javascript developer etc.</li>
+          <li className='text-sm mt-2 '>Am working with both side frontend and backend developer</li>
        
 
         </ul>
