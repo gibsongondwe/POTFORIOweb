@@ -29,7 +29,7 @@ const ExperienceCard = () => {
       
       <div className='px-0 md:px-8'>
         <h4 className='text-sm text-1xl font-light text-gray-300'>FRONTEND DEVELOPER</h4>
-        {/* <p className='text-sm text-1xl mt-1 text-gray-300'>JAVASCRIPT DEVELOPER</p> */}
+     
         <div className=' flex space-x-2 my-2 '>
           <img
             className='h-10 w-10 rounded-full'

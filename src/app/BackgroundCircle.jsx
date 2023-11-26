@@ -25,7 +25,7 @@ const BackgroundCircle = () => {
           <div className='absolute border border-[#333333] rounded-full h-[200px] w-[100px] mt-52 animate-ping' />
           <div className='rounded-full border-[#333333] opacity-20 h-[650px] w-[650px]
           absolute mt-52 animate-pulse'/>
-          {/* <div className='rounded-full border border-[#676767] h-[500px] w-[500px] absolute mt-52' /> */}
+         
     </motion.div>
   )
 }

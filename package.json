@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@amcharts/amcharts4-geodata": "^4.1.27",
+    "firebase": "^10.6.0",
     "framer-motion": "^10.16.4",
     "next": "latest",
     "react": "latest",

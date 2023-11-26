@@ -2,16 +2,6 @@ import React from 'react'
 import { useForm } from "react-hook-form"
 
 const Contact = () => {
-  // const {
-  //   register,
-  //   handleSubmit,
- 
-  // } = useForm()
-
-  // const onSubmit = (data) => console.log(data)
-
-  // console.log(watch("example"))
-
 
   return (
     <div className='h-screen flex relative flex-col text-center md:text-left md: flex-row
@@ -41,14 +31,14 @@ const Contact = () => {
                <img className='text-[#F7ABBA] h-6 w-6 animate-pulse' src='./mapp.png' alt='map.js' />
             <p className='text-1xl text-gray-500'>Full stack developer</p>
             </div>
-            <form className='flex flex-col space-y-2 x-2 py-4 x-4 w-fit mx-auto'>
+            <form className='flex flex-col space-y-2 x-2 py-4 x-4  mx-auto'>
               <div className='flex space-x-2'>
                   <input placeholder='Name' className='contactInput' type='text' />
                   <input placeholder='Email'  className='contactInput' type='email'/>
               </div>
              <input placeholder='Subject' className='contactInput' type='text'/>
               <textarea placeholder='Massage' className='contactInput' type='text'/>
-              <button className='bg-[#cbcb32] py-5 px-5 ml-6 h-13 text-center rounded-md text-black font-bold text-lg  ' type='submit'
+              <button className='bg-[#cbcb32] py-5 px-5 ml-5 h-13 text-center rounded-md text-black font-bold text-lg  ' type='submit'
                >Submit</button>
 
           </form>

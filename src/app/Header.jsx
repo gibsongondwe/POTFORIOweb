@@ -23,25 +23,27 @@ const Header = () => {
         transition={{
           duration:1.5,
         }}
-        className='flex flex-row items-center w-5 cursor-pointer text justify-between '>
+        className='flex flex-row items-center  w-5 cursor-pointer text justify-between '>
       
        
-       
+       <Link href='#contact'>
             
-          <img className='mr-2' src='./youtube.jpg' alt='youtube.js' />
-      
+          <img className='mr-4 pr-2' src='./youtube.jpg' alt='youtube.js' />
+      </Link>
        
-        
-          <img className='mr-2' src='./facebook.jpg' alt='facebook.js' />
+      <Link href='#contact'>
+          <img className='mr-4 pr-2' src='./facebook.jpg' alt='facebook.js' />
           
-        
+        </Link>
          
-           <img className='mr-2' src='./download (21).jpg' alt='tweet.js' />
+        <Link href='#contact'>
+           <img className='mr-4 pr-2' src='./download (21).jpg' alt='tweet.js' />
         
-       
+       </Link>
         
-           <img src='./download (7).jpg' alt='telegrame.js' />
-        
+        <Link href='#contact '>
+           <img className='mr-4' src='./download (7).jpg' alt='telegrame.js' />
+        </Link>
        
       </motion.div>
       <Link href='#contact'>
@@ -61,7 +63,7 @@ const Header = () => {
         className='flex flex-row items-center text-gray-300 cursor-pointer '>
         <img src='enviloop.png' alt='enviloop.js' className='w-5' />
 
-        <p className='uppercase hidden md:inline-flex text-sm text-gray-400 '>get in tourch</p>
+        <p className='uppercase hidden md:inline-flex text-sm text-gray-400 '>email me</p>
       </motion.div>
       </Link>
      </header>

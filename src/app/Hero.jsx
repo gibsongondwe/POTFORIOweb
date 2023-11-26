@@ -2,13 +2,13 @@
 import react from 'react'
 import BackgroundCircle from './BackgroundCircle';
 import Link from 'next/link'
-// import { Cursor,useTypewriter } from 'react-simple-typewriter';
+
 import { Cursor,useTypewriter } from 'react-simple-typewriter';
 const Hero = () => {
   const [text, count] = useTypewriter({
     words: [
     'Hi !,My Name is Gibson Gondwe',
-     'Hire me to your best project in your company',
+     'Hire me on the most expressive project in your company',
      'Am a full stack developer',
     '<react,c++,c and many more java script language/>'
   ],
@@ -28,14 +28,7 @@ return (
         className='text-sm uppercase text-gray-200 pd-2 tracking-[10px]'
       >Software  Engineering</h2>
       <p className='text-white'>{text}</p>
-      {/* <h1'>
-
-      </h1> */}
-
-       {/* <h1  className='text-5xl lg:text-6xl font-semibold px-10>
-      <span className='mr-3'>{text}</span>
-    <cursor cursorColor="#7ABOA"/>
-    </h1> */}
+   
       <div className=' mt-5'>
         <Link href='#about'>
          <button className='heroButton'>About</button>
@@ -44,9 +37,7 @@ return (
         <Link href='#experience'>
         <button className='heroButton'>Experience</button>
         </Link>
-        {/* <Link href='#best'>
-        <button className='heroButton'>BestExperience</button>
-        </Link> */}
+       
 
         <Link href='#skills'>
         <button className='heroButton'>Skills</button>

@@ -22,7 +22,7 @@ const About = () => {
       }}
       
       className='h-screen flex flex-col relative top-7 text-center md:text-left md:flex-row 
-    max-w7xl px-2  justify-center mx-auto items-center text-yellow-50'>
+    max-w7xl px-2  justify-center mx-auto items-center text-yellow-50 '>
    <h3 className='absolute top-2 uppercase tracking-[20px] text-gray-300 text-1xl '>
         About
       </h3>
