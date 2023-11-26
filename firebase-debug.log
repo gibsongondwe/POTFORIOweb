@@ -1,0 +1,70 @@
+[debug] [2023-11-26T17:14:18.041Z] ----------------------------------------------------------------------
+[debug] [2023-11-26T17:14:18.046Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CHACHINE\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-26T17:14:18.047Z] CLI Version:   12.9.1
+[debug] [2023-11-26T17:14:18.049Z] Platform:      win32
+[debug] [2023-11-26T17:14:18.049Z] Node Version:  v18.16.0
+[debug] [2023-11-26T17:14:18.051Z] Time:          Sun Nov 26 2023 19:14:18 GMT+0200 (South Africa Standard Time)
+[debug] [2023-11-26T17:14:18.051Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-26T17:14:18.236Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-26T17:14:18.237Z] > authorizing via signed-in user (gcgondwe531@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\CHACHINE\Desktop\web app\next-js-POTFORIO
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-26T17:14:29.521Z] Using project from CLI flag: potforio2023
+[debug] [2023-11-26T17:14:29.525Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/potforio2023 [none]
+[debug] [2023-11-26T17:14:30.353Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/potforio2023 200
+[debug] [2023-11-26T17:14:30.354Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/potforio2023 {"projectId":"potforio2023","projectNumber":"252414438378","displayName":"potforio2023","name":"projects/potforio2023","resources":{"hostingSite":"potforio2023"},"state":"ACTIVE","etag":"1_593f8785-1d3b-4a46-93f5-c0f668cab2af"}
+[info] i  Using project potforio2023 (potforio2023) 
+[info] 
+=== Hosting Setup
+[debug] [2023-11-26T17:14:30.446Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/potforio2023 [none]
+[debug] [2023-11-26T17:14:31.172Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/potforio2023 200
+[debug] [2023-11-26T17:14:31.172Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/potforio2023 {"projectId":"potforio2023","projectNumber":"252414438378","displayName":"potforio2023","name":"projects/potforio2023","resources":{"hostingSite":"potforio2023"},"state":"ACTIVE","etag":"1_593f8785-1d3b-4a46-93f5-c0f668cab2af"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote build/404.html 
+[debug] [2023-11-26T17:14:58.221Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-11-26T17:14:58.740Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-11-26T17:14:58.741Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.6.0","browserURL":"https://www.gstatic.com/firebasejs/10.6.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.6.0/firebase.tgz"},"live":{"version":"10.6","browserURL":"https://www.gstatic.com/firebasejs/live/10.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.6.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.6.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.6.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.6.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.6.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.6.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.6.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.6.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.6.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.6.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\CHACHINE\Desktop\web app\next-js-POTFORIO 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=178924313&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-11-26T17:15:46.053Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-11-26T17:15:46.053Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-11-26T17:15:49.060Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-11-26T17:15:49.060Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-11-26T17:15:49.977Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-11-26T17:15:50.812Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-11-26T17:15:50.812Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"gibsongondwe","id":131948682,"node_id":"U_kgDOB91gig","avatar_url":"https://avatars.githubusercontent.com/u/131948682?v=4","gravatar_id":"","url":"https://api.github.com/users/gibsongondwe","html_url":"https://github.com/gibsongondwe","followers_url":"https://api.github.com/users/gibsongondwe/followers","following_url":"https://api.github.com/users/gibsongondwe/following{/other_user}","gists_url":"https://api.github.com/users/gibsongondwe/gists{/gist_id}","starred_url":"https://api.github.com/users/gibsongondwe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/gibsongondwe/subscriptions","organizations_url":"https://api.github.com/users/gibsongondwe/orgs","repos_url":"https://api.github.com/users/gibsongondwe/repos","events_url":"https://api.github.com/users/gibsongondwe/events{/privacy}","received_events_url":"https://api.github.com/users/gibsongondwe/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":9,"public_gists":0,"followers":0,"following":1,"created_at":"2023-04-27T06:40:59Z","updated_at":"2023-11-07T06:11:28Z","private_gists":0,"total_private_repos":2,"owned_private_repos":2,"disk_usage":3139,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as gibsongondwe 
+[info] 
